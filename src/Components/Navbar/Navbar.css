@@ -1,0 +1,223 @@
+.navbar {
+  padding: 0px 80px;
+  /* border: 1px solid hsl(0, 100%, 50%); */
+  /* margin: 0px 100px 0px 100px; */
+  display: flex;
+  background: rgb(243, 243, 243);
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  /* position: relative; */
+  /* height: 60px; */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  -webkit-box-shadow: 0px 7px 12px 4px rgba(120, 120, 120, 0.17);
+  -moz-box-shadow: 0px 7px 12px 4px rgba(107, 107, 107, 0.17);
+  box-shadow: 0px 7px 12px 4px rgba(110, 110, 110, 0.17);
+  
+  /* padding: 10px 100px 10px 100px; */
+  /* height: 70px; */
+}
+.logo{
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+}
+.navbar img {
+  width: 100px;
+  object-fit: cover;
+  /* height: 70px; */
+}
+.active {
+  /* padding-bottom: 5px; */
+  border-bottom: 2px solid #ffaa00;
+}
+.navbar a {
+  /* width: 251px; */
+  /* height: 36px; */
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+
+  /* list-style: none; */
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  color: #000000;
+  /* font-size: 18px; */
+  gap: 10px;
+}
+
+/* ''''''''''''''' */
+/* Add this new class for the glassy effect */
+.navbar.glassy {
+  background: #39312462;
+  
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* gap: 40px; */
+}
+/* .navbar.sticky.scrolling {
+  background: rgba(10, 10, 10, 0.527);
+  transition: 0.5s;
+  color: #f17c0f;
+} */
+.contact {
+  /* background: transparent; */
+  font-size: 15px;
+  color: #ffffff;
+  /* border: 1px solid rgb(218, 218, 218); */
+  border: none;
+  padding: 8px 20px;
+  display: flex;
+  background: rgb(255, 188, 62);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact:hover {
+  /* background: transparent; */
+  font-size: 15px;
+  color: #ffffff;
+  /* border: 1px solid rgb(73, 65, 65); */
+  border: none;
+  padding: 8px 20px;
+  display: flex;
+  background: rgb(255, 166, 0);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+  scale: 1.03;
+  transition: 0.3s;
+}
+.navbar ul li a {
+  background: transparent;
+  font-size: 16px;
+  color: #000000;
+  /* border: 1px solid rgb(44, 42, 42); */
+  /* border: none; */
+  padding: 8px 13px;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  /* transition: 0.3s; */
+  font-family: sans-serif;
+  /* font-weight: 500; */
+  /* gap: 10px; */
+}
+.our-services:hover {
+  background-color: #0b1158;
+  color: #fff;
+}
+/* .navbar ul li a:hover{
+    background-color: #2c3164;
+    color: white;
+    border-radius: 10px;
+} */
+
+.navbar li {
+  cursor: pointer;
+}
+.menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+.menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #030021;
+  border-radius: 0.2rem;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    display: inline-block;
+    width: 100%;
+  }
+  .navbar-right {
+    display: none;
+  }
+  .navbar .menu {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .menu {
+    margin-top: 10px;
+    margin-right: 40px;
+  }
+
+  /* .navbar a{
+        padding: 15px;
+    } */
+
+  .navbar ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  .navbar ul.open {
+    display: flex;
+    /* padding: 10px; */
+  }
+
+  .navbar ul li {
+    width: 100%;
+    text-align: center;
+    margin-top: 6px;
+  }
+
+  .navbar ul li a {
+    margin: 0.2rem 0.5rem;
+  }
+  .navbar-right {
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .menu span {
+    height: 0.2rem;
+    width: 90%;
+    /* margin-top: 10px; */
+    background-color: #190338;
+    border-radius: 0.2rem;
+    transition: 0.5s;
+  }
+  .menu {
+    height: 25px;
+    /* margin-top: 20px; */
+  }
+  .navbar {
+    padding: 10px;
+  }
+  .navbar-right a {
+    width: 100%;
+    text-align: center;
+    /* padding: 8px; */
+    /* margin-top: 20px; */
+  }
+}

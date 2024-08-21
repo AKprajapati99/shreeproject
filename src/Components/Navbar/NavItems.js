@@ -1,0 +1,22 @@
+export const NavItems = [
+    {
+        label:"Home",
+        to:"/"
+    },
+    {
+        label:"Products",
+        to:"/products"
+    },
+    {
+        label:"Services",
+        to:"/services"
+    },
+    {
+        label:"About",
+        to:"/about"
+    },
+    {
+        label:"Gallary",
+        to:"/gallary"
+    },
+]
