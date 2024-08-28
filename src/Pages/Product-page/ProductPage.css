@@ -4,8 +4,7 @@
   padding: 50px 0px 50px 0px;
 }
 .product-main-container{
-  /* border: 2px solid red; */
-  width: 100%;
+  width: 80%;
   margin: auto;
 }
 .product-title {
@@ -28,7 +27,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 30px;
-  gap: 50px;  
+  gap: 50px;
   
 }
 .product-card-one {

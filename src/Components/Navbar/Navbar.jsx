@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const handleLinkClick = (item) => {
     setMenu(item);
-  }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,13 +42,25 @@ const Navbar = () => {
         {NavItems &&
           NavItems.map((item, index) => (
             <li key={index}>
-              <Link 
-                to={item.to} 
-                onClick={() => handleLinkClick(item.label)} 
-                className={menu === item.label ? "active" : ""}
-              >
-                {item.label}
-              </Link>
+              {item.target ? (
+                <a 
+                  href={item.to} 
+                  target={item.target} 
+                  rel="noopener noreferrer" 
+                  onClick={() => handleLinkClick(item.label)} 
+                  className={menu === item.label ? "active" : ""}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link 
+                  to={item.to} 
+                  onClick={() => handleLinkClick(item.label)} 
+                  className={menu === item.label ? "active" : ""}
+                >
+                  {item.label}
+                </Link>
+              )}
             </li>
           ))
         }
@@ -58,6 +70,6 @@ const Navbar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navbar;

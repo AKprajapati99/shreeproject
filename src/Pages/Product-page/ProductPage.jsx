@@ -25,8 +25,8 @@ const ProductPage = () => {
 
 
         <div className="product-title">
-          <p>PRODUCTS</p>
-          <h1>Our Products</h1>
+          <p>--LATEST--</p>
+          <h1>Lorem ipsum dolor sit amet.</h1>
         </div>
         <div className="product-cards">
           <Link to='/products/1'>
@@ -95,55 +95,7 @@ const ProductPage = () => {
           <Link to='/products/6'>
             <div className="product-card-one">
               <div className="product-card-img">
-                <img src={product06new} alt="" />
-              </div>
-              <div className="product-card-text">
-                <h2>Shreeinsul PUF/PIR Products.</h2>
-                <p>Polyisocyanurate (PIR) foam slabs and pipe sections are suitable for use between -200°C to +150°C. It has low thermal conductivity value of maximum 0.021 W/mk at 10°C...</p>
-                <hr />
-              </div>
-            </div>
-          </Link>
-          <Link to='/products/7'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={product07new} alt="" />
-              </div>
-              <div className="product-card-text">
-                <h2>Shreeinsul PUF/PIR Products.</h2>
-                <p>Polyisocyanurate (PIR) foam slabs and pipe sections are suitable for use between -200°C to +150°C. It has low thermal conductivity value of maximum 0.021 W/mk at 10°C...</p>
-                <hr />
-              </div>
-            </div>
-          </Link>
-          <Link to='/products/8'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={product08new} alt="" />
-              </div>
-              <div className="product-card-text">
-                <h2>Shreeinsul PUF/PIR Products.</h2>
-                <p>Polyisocyanurate (PIR) foam slabs and pipe sections are suitable for use between -200°C to +150°C. It has low thermal conductivity value of maximum 0.021 W/mk at 10°C...</p>
-                <hr />
-              </div>
-            </div>
-          </Link>
-          <Link to='/products/9'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={product09new} alt="" />
-              </div>
-              <div className="product-card-text">
-                <h2>Shreeinsul PUF/PIR Products.</h2>
-                <p>Polyisocyanurate (PIR) foam slabs and pipe sections are suitable for use between -200°C to +150°C. It has low thermal conductivity value of maximum 0.021 W/mk at 10°C...</p>
-                <hr />
-              </div>
-            </div>
-          </Link>
-          <Link to='/products/10'>
-            <div className="product-card-one">
-              <div className="product-card-img">
-                <img src={product10new} alt="" />
+                <img src={midimg} alt="" />
               </div>
               <div className="product-card-text">
                 <h2>Shreeinsul PUF/PIR Products.</h2>

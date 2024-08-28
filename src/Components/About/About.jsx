@@ -1,32 +1,31 @@
 import React from 'react'
 import './About.css'
 import { FiCheckCircle } from "react-icons/fi";
-// import image01 from '../../assets/AboutPageimg/image02.jpg'
-import promig1 from '../../assets/proimg/pro1.png'
-import promig2 from '../../assets/proimg/pro2.png'
-import promig3 from '../../assets/proimg/pro3.png'
-import promig4 from '../../assets/proimg/pro4.png'
-import promig5 from '../../assets/proimg/pro5.jpg'
-// import promig6 from '../../assets/proimg/pro6.png'
+import image02 from '../../assets/AboutPageimg/image02.jpg'
+import product01new from '../../assets/product01new.jpg'
+import product02new from '../../assets/product02new.jpg'
+import product03new from '../../assets/product03new.jpg'
+import product04new from '../../assets/product04new.png'
+import product05new from '../../assets/product05new.png'
 const About = () => {
     return (
         <div className='about'>
             <div className="about-main">
                 <div className="about-main-img">
                     <div className="images first-img">
-                        <img src={promig1} alt="" />
+                        <img src={product01new} alt="" />
                     </div>
                     <div className="images mid-img">
-                    <img src={promig2} alt="" />
+                    <img src={product02new} alt="" />
                     </div>
                     <div className="images last-img">
-                    <img src={promig3} alt="" />
+                    <img src={product03new} alt="" />
                     </div>
                 </div>
                 <div className="about-main-img-container">
                     <div className="about-main-img-container-1">
                         <div>
-                        <img src={promig4} alt="" />
+                        <img src={product04new} alt="" />
                         </div>
                         <div>
                             <p className='about-title'>--INTRODUCTION OF US</p>
@@ -36,7 +35,7 @@ const About = () => {
                     </div>
                     <div className="about-main-img-container-2">
                         <div>
-                        <img src={promig5} alt="" />
+                        <img src={product05new} alt="" />
                         </div>
                         <div>
                             <div className="about-correct">

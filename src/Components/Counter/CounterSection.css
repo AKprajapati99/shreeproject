@@ -2,8 +2,8 @@
 .counter-section {
   /* border: 1px solid red; */
   padding: 20px;
-  background: rgb(32, 17, 108);
-  color: rgb(255, 248, 240);
+  background: #20126c;
+  color: aliceblue;
   border-radius: 30px;
 }
 .section {
@@ -55,15 +55,14 @@
 .counter-numbers {
   font-size: 3rem;
   font-weight: bold;
-  color: #f88808;
+  color: #ffffff;
   margin-top: 20px;
   /* margin-bottom: 0.5rem; */
 }
 
 .counter-p {
-  font-size: 1.3rem;
-  font-weight: 500;
-  color: #f87902;
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 
 @media (max-width: 1024px) {
