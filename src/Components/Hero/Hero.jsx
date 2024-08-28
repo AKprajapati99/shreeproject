@@ -14,12 +14,9 @@ const Hero = () => {
       <div className="hero-main">
         {/* <img src={backround} alt="" /> */}
         
-        <h1 >WELCOME <br /> TO <br /> SHREEINSUL</h1>
+        <h1 > Welcome to Shree Engineers </h1>
         <p>
-          Welcome to La Patisserie Belle, where every <br />
-           bite is a journey into the
-    /
-          haven for those who appreciate the finer things in life.
+        WE ARE EXPERIENCED THERAMLINSULATION GROUP
         </p>
         <button className="btn">Explore More</button>
 

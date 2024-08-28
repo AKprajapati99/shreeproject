@@ -25,8 +25,8 @@ const ProductPage = () => {
 
 
         <div className="product-title">
-          <p>--LATEST--</p>
-          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>PRODUCTS</p>
+          <h1>Our Products</h1>
         </div>
         <div className="product-cards">
           <Link to='/products/1'>

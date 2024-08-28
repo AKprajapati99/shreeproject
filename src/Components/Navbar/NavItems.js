@@ -9,7 +9,7 @@ export const NavItems = [
     },
     {
         label:"Services",
-        to:"/services"
+        to:"https://shreeengineers.in/services.php"
     },
     {
         label:"About",

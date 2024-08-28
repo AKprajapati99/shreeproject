@@ -1,6 +1,6 @@
 .footer {
   color: #ffffff;
-  background-color: #20126c;
+  background-color: #110a3e;
   /* background: #95d7ff; */
   display: flex;
   flex-direction: column;
@@ -15,6 +15,13 @@
   display: grid;
   grid-template-columns: 2fr 0.7fr 0.5fr 1fr;
   gap: 50px;
+}
+.footer-content-left img {
+  width: 170px;
+
+}
+.footer-content-center {
+  gap: 20px;
 }
 .footer-content-left,
 .footer-content-right,

@@ -25,11 +25,13 @@ h1 {
     }
     
     .news {
+    /* border: 1px solid #ff0303; */
     /* border: 2px solid red; */
   float: left;
   padding: 0 1.7rem;
   gap: 1rem;
   width: 50%;
+  /* height: 30%; */
   padding-top: 10vh;
   padding-bottom: 15vh;
   /* height: 50%; */

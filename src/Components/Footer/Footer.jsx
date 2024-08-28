@@ -3,14 +3,15 @@ import './Footer.css'
 // import face from '../../assets/'
 import twi from '../../assets/twitter_icon.png'
 import linke from '../../assets/linkedin_icon.png'
+import logo from '../../assets/logo shreeinsul.png'
 
 const Footer = () => {
     return (
         <div className='footer' id='footer'>
             <div className="footer-content">
                 <div className="footer-content-left">
-                    <h1>Logo</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem voluptate odio reiciendis quisquam ut, facilis magni aperiam odit. Dolores vero similique cumque natus rerum soluta laboriosam quae illum ex ratione. </p>
+                    <a href="#"><img src={logo} alt="" /></a>
+                    <p>SHREE ENGINEERS an ISO 9001:2008 Certified Organization pioneer in hot, cold, acoustic insulation and ducting work having experience of more than 18 years in almost all industrial segments. The company is managed by a team of qualified, energetic and dynamic Engineers who always are in search of better avenues. </p>
                     <div className="footer-social-icon">
                         {/* <img src={face} alt="" /> */}
                         <img src={twi} alt="" />
@@ -18,12 +19,16 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer-content-center">
-                    <h2>COMPANY</h2>
+                    <h2>Quick Links</h2>
+                    
                     <ul>
-                        <li>Home</li>
-                        <li>About us</li>
-                        <li>service</li>
-                        <li>Privacy policy</li>
+                        <li>👉🏻 Home</li>
+                        <li>👉🏻 About us</li>
+                        <li>👉🏻 service</li>
+                        <li>👉🏻 Privacy policy</li>
+                        <li>👉🏻 contact</li>
+                        <li>👉🏻 gallery</li>
+                        <li>👉🏻 Clientele</li>
                     </ul>
                 </div>
                 <div className="footer-content-center">
