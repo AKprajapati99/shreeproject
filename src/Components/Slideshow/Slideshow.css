@@ -1,11 +1,4 @@
-* {box-sizing:border-box}
 
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
 /* Slideshow container */
 .slideshow-container {
   max-width: 100%;
@@ -13,7 +6,7 @@ body {
   position: relative;
   /* border: 1px solid red; */
   overflow: hidden;
-  filter: grayscale(50%);
+  /* filter: grayscale(50%); */
   
   margin: auto;
 }
@@ -57,7 +50,7 @@ height: 100vh;
 
 /* Caption text */
 .text {
-  color: #ffc9aa;
+  color: rgb(255, 166, 0);
   font-size: 40px;
   padding: 8px 12px;
   position: absolute;

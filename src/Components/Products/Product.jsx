@@ -30,8 +30,8 @@ const Product = () => {
     <div className="product">
       <div className="product-main-container">
         <div className="product-title">
-          <p></p>
-          <h1><hr /> ShreeInsul Best Products <hr /></h1>
+          <p>--LATEST--</p>
+          <h1>Lorem ipsum dolor sit amet.</h1>
         </div>
         <div className="product-cards">
             <div className="product-card-one" onClick={() => handleProductClick(1)}>

@@ -1,15 +1,9 @@
 import React from 'react';
-import './ContactPage.css'; // Make sure to import your CSS file
-import Parelax from '../../Components/ParelaxEffect/Parelax';
-import image03 from '../../assets/AboutPageimg/image03.jpg'
+import './Contact.css'; // Make sure to import your CSS file
 
-const ContactPage = () => {
+const Contact = () => {
     return (
         <>
-            <Parelax heading={"Contact Us"} backgroundImage={image03} />
-            <div>
-            
-            </div>
             <div className="contact-page">
                 <div className="contact-page-main-container">
                 <div className="contact-page-left">
@@ -71,4 +65,4 @@ const ContactPage = () => {
     );
 }
 
-export default ContactPage;
+export default Contact;

@@ -2,7 +2,9 @@ import React, { lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import ServicePage from '../Pages/Service-page/ServicePage';
 import Scrollup from './Scrollup';
+// import ContactPage from '../Pages/Contact-page/ContactPage';
 
+const ContactPage = lazy(() => import('../Pages/Contact-page/ContactPage'));
 const Home = lazy(() => import('../Pages/Home/Home'));
 const ProductPage = lazy(() => import('../Pages/Product-page/ProductPage'));
 const SeparateProduct = lazy(() => import('../Pages/Separate-product/Product01/SeparateProduct'));
@@ -22,7 +24,7 @@ const RoutesComponent = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<AboutPage />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/contact' element={<ContactPage />} />
         <Route path='/services' element={<ServicePage />} />
         <Route path='/gallary' element={<Gallary />} />
         <Route path='/products' element={<ProductPage />} />
